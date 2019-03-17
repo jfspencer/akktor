@@ -20,6 +20,7 @@ Higher order executor will handle error propagation back up the actor chain
 
 implementation ref
 https://en.m.wikipedia.org/wiki/Actor_model
+http://www.dalnefre.com/wp/2014/03/actors-in-javascript/
 
 interesting read on the why of the actor system
 
