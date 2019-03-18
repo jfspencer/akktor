@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es2017",
+    "target": "es6",
     "outDir": "build/main",
-    "rootDir": "./",
+    "rootDir": "./src",
     "moduleResolution": "node",
     "module": "commonjs",
     "declaration": true,
@@ -41,11 +41,5 @@
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules/**"],
-  "compileOnSave": false,
-
-  "baseUrl": "./src",
-  "paths": {                                /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */
-    "@lib/*" : ["lib/*"],
-    "@interface/*" : ["interface/*"]
-  },    
+  "compileOnSave": false
 }

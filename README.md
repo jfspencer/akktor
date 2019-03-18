@@ -1,6 +1,8 @@
 # akktor
 Akka inspired JS Actor System
 
+https://doc.akka.io/docs/akka/2.5/guide/tutorial_1.html#the-akka-actor-hierarchy
+
 Reasons for Akktor
 - real time logging of system messages. think redux logger for domain logic
   - break point based observation in async systems causes fundamental chsnges to the system under observstion. some things are not observable via break point debugging

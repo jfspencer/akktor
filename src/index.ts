@@ -1,8 +1,7 @@
-import { EffectActor } from './lib/EffectActor';
 import { ActorSystem } from './lib/ActorSystem';
+import { Actor } from './lib/Actor';
 
-
-export * from './lib/number';
+declare const window:any;
 
 //init an actor
 
@@ -11,5 +10,9 @@ export * from './lib/number';
 //mailing address of manager
 //async (generators?)
 //manager heirarchy for error handlings
-
-export { ActorSystem, EffectActor }
+const main = () => {
+    if(window){
+        window['Akktor'] = { ActorSystem, Actor}
+    }
+}
+main()
